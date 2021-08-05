@@ -57,16 +57,14 @@ img {
 }
 /** Logo **/
 #header .logo {
-	float: left;
-	margin-right: 40px;
+	float: center;
 }
-#header .logo a {
+#header .logo a img {
 	color: #000;
 	display: block;
 	font: 20px/35px 'Play';
-	height: 20px;
-	width: 76px;
-	padding-top: 32px;
+	max-height: 100px;
+	margin: auto;
 	text-decoration: none;
 	text-transform: uppercase;
 }
@@ -113,10 +111,16 @@ body
 #contents {
 	min-height: 100%;
 	width: 880px;
-	margin: 0 auto;
+	margin: auto;
 	padding: 54px 40px;
 	padding-bottom: 60px;
 }
+
+#contents * {
+	width: auto;
+	text-align: center;
+}
+
 h1 {
 	color: #3e3e3e;
 	font-size: 30px;
@@ -137,17 +141,18 @@ p {
 	line-height: 24px;
 	margin: 0 0 30px;
 }
+
 p a {
 	color: #585858;
 }
 #tagline h1 {
 	margin-left: 20px;
 }
-#tagline > div {
+/*#tagline > div {
 	float: left;
 	width: 400px;
 	margin: 0 20px;
-}
+}*/
 #contents .features {
 	width: 810px;
 	margin: 0 auto;
